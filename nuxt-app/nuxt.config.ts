@@ -4,6 +4,9 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
     ssr: false,
     target: "static",
+    app: {
+        cdnURL: '/quantum-card-app-2/'
+    },
     //vite: {
     //    clearScreen: false
     //},
