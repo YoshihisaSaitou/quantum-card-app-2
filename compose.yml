@@ -1,0 +1,39 @@
+#apt update
+#npm update
+#npm install -g firebase-tools
+#yarn global add firebase-tools
+#yarn create nuxt-app . --overwrite-dir
+#firebase login
+#firebase use default
+#emulator参考サイト
+#https://qiita.com/kyhei_0727/items/343602fa184c84d593c4
+#firebase emulators:start
+#apt-cache search openjdk
+#apt install openjdk-11-jre
+#apt install openjdk-17-jre
+#
+#version: '3'
+services:
+  node:
+    image: node:16.16.0
+    ports:
+      - 80:80
+      - 443:443
+      - 9005:9005
+      - 9099:9099
+      - 5001:5001
+      - 8080:8080
+      - 8085:8085
+      - 9199:9199
+      - 4000:4000
+      - 5000:5000
+      - 3000:3000
+    volumes:
+      - ./:/var/www
+    environment:
+      TZ: 'Asia/Tokyo'
+    privileged: true
+    tty: true
+    stdin_open: true
+    command: /bin/sh
+    working_dir: /var/www
