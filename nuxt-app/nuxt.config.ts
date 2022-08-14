@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     ssr: false,
     target: "static",
     app: {
-        //baseURL: '/quantum-card-app-2/',
+        baseURL: '/quantum-card-app-2/',
         cdnURL: '/quantum-card-app-2/'
     },
     //vite: {
