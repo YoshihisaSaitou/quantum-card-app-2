@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     target: "static",
     app: {
         baseURL: '/quantum-card-app-2/',
+        //buildAssetsDir: '/',
         cdnURL: '/quantum-card-app-2/'
     },
     //vite: {
