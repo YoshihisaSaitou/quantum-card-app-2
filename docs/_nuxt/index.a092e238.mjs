@@ -1,0 +1,1 @@
+import{a,r as e,o as c,b as _,e as t,w as o,f as l,h as r}from"./entry.01ce7f3d.mjs";const d={},i=r("Top"),f=l("h1",null,"This is index Page",-1);function u(p,h){const n=e("Title"),s=e("Head");return c(),_("div",null,[t(s,null,{default:o(()=>[t(n,null,{default:o(()=>[i]),_:1})]),_:1}),f])}const x=a(d,[["render",u]]);export{x as default};
